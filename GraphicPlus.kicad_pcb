@@ -813,7 +813,7 @@
       (net 3 "+5V") (pinfunction "~{PGM}") (pintype "input") (tstamp c380397a-cacd-44ad-b65b-f2e710b09762))
     (pad "28" thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 3 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 5170da20-8c53-4aab-a468-8dc61042c184))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
