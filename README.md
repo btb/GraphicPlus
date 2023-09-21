@@ -11,3 +11,5 @@ Component values not specified on schematic:
 * D1 - signal diode, 1n4148, 1n914, etc should be fine.
 
 If you only want to use this as a firmware expansion card (i.e. for SoftSP), you can omit U5, U6, U10, U11, SW1, D1, and J2.
+
+Pins 2,4,6,8 of the port header are left unconnected for maximum compatibility with common PC parallel port IDC26F to DB25F dongles. If you need those pins to be connected to ground as in the original Grappler cards, short jumpers JP1,JP2,JP3,JP4.
