@@ -2,6 +2,8 @@
 
 Parallel printer card for Apple II
 
+This is a work in progress
+
 A clone of Orange Micro's Grappler+ printer card, from their published schematic, with the known bugfixes of their later revisions applied.
 
 Component values not specified on schematic:
