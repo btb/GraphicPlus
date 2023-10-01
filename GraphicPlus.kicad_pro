@@ -57,7 +57,9 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|172085000|100330000|dd7a1b64-a3f0-463d-84bd-4d9c182df716|3414f849-c3bc-4f17-bf58-d6221d618e41"
+        "lib_footprint_mismatch|164470000|111028750|5bcbc194-36f7-4ad2-b051-93a1a9cabdfb|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|130175000|74930000|9dba1ba1-f6be-453a-b277-75118ddaa543|138131f5-5bbc-461c-b8e3-fda5691b4d40|B.Cu",
+        "starved_thermal|156845000|97790000|9dba1ba1-f6be-453a-b277-75118ddaa543|1f6a944b-6bf2-4f03-ad61-df0f322eb9b8|B.Cu"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -541,6 +543,10 @@
     [
       "e35c56f9-4713-4571-acdb-6ae2f2073fad",
       ""
+    ],
+    [
+      "d3676a9a-c1a1-4c0a-8c9c-1f16e144dc0e",
+      "Cables"
     ]
   ],
   "text_variables": {}
