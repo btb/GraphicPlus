@@ -7,7 +7,7 @@
   (paper "USLetter")
   (title_block
     (date "2023-09-21")
-    (rev "2")
+    (rev "2a")
   )
 
   (layers
@@ -3266,7 +3266,7 @@
   (gr_line locked (start 136.2075 140.335) (end 136.8425 140.97)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp ee38e057-41f8-4606-9295-aace361cbd8d))
   (gr_text "JLCJLCJLCJLC" (at 159.385 128.905 90) (layer "F.SilkS") (tstamp 29f00fd6-ee4d-43c8-ad66-db461b300144)
-    (effects (font (size 0.6 0.6) (thickness 0.09)) (justify left bottom))
+    (effects (font (size 0.8 0.8) (thickness 0.15) bold) (justify left bottom))
   )
   (gr_text "Graphic+" (at 137.16 69.215) (layer "F.SilkS") (tstamp 2ce0cc1a-b0c9-4c29-9e5c-f1008967c83a)
     (effects (font (face "AppleGothic") (size 3.81 3.81) (thickness 0.508) bold) (justify left bottom))
