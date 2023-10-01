@@ -6,7 +6,7 @@
 
   (title_block
     (date "2023-09-21")
-    (rev "2")
+    (rev "3")
   )
 
   (lib_symbols
@@ -7457,6 +7457,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 43.18 48.26 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 528a7a92-9638-44ed-9c96-8a364bd32bd6)
+    (property "Reference" "#PWR042" (at 36.83 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 39.37 48.895 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 43.18 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 43.18 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 148309d4-c467-4bae-91a9-93e0bc2af26d))
+    (instances
+      (project "GraphicPlus"
+        (path "/e35c56f9-4713-4571-acdb-6ae2f2073fad"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 88.9 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 529eef30-8686-4a10-bc1f-d8ce9343301e)
@@ -7965,31 +7990,6 @@
       (project "GraphicPlus"
         (path "/e35c56f9-4713-4571-acdb-6ae2f2073fad"
           (reference "U7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 43.18 48.26 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6c0cd30f-fcd5-46b1-a6e5-282a419a03a0)
-    (property "Reference" "#PWR042" (at 46.99 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 39.37 48.895 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 43.18 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 43.18 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cfa9cf19-2929-41b3-a265-d58065105209))
-    (instances
-      (project "GraphicPlus"
-        (path "/e35c56f9-4713-4571-acdb-6ae2f2073fad"
-          (reference "#PWR042") (unit 1)
         )
       )
     )
